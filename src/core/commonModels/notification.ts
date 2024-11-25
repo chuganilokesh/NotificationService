@@ -1,0 +1,25 @@
+export enum NOTIFICATION_TYPE {
+    PROMOTIONAL = 'PROMOTIONAL',
+    TRANSACTIONAL = 'TRANSACTIONAL',
+    SCHEDULED = 'SCHEDULED'
+}
+
+export enum NOTIFICATION_PRIORITY {
+    HIGH = 'HIGH',
+    MEDIUM = 'MEDIUM',
+    LOW = 'LOW'
+}
+
+export enum NOTIFICATION_STATUS {
+    PENDING = 'PENDING',
+    DELIVERED = 'DELIVERED',
+    FAILED = 'FAILED',
+    UNPROCESSED = 'UNPROCESSED' //scheduled for later
+}
+
+export enum NOTIFICATION_CHANNEL {
+    EMAIL = 'EMAIL',
+    SMS = 'SMS'
+}
+
+

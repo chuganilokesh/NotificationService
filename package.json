@@ -1,0 +1,49 @@
+{
+    "name": "calculatorservice",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "start": "nest start",
+        "start:dev": "nest start --watch"
+    },
+    "keywords": [],
+    "author": "Lokesh Chugani",
+    "license": "ISC",
+    "description": "Calculator Service",
+    "devDependencies": {
+        "@nestjs/core": "^10.4.8",
+        "@nestjs/cli": "^10.0.0",
+        "@nest-middlewares/cors": "^10.0.0",
+        "@nestjs/axios": "^3.0.0",
+        "@nestjs/common": "^10.0.0",
+        "@nestjs/config": "^3.0.0",
+        "@nestjs/platform-express": "^10.0.0",
+        "@nestjs/swagger": "^7.4.0",
+        "@nestjs/terminus": "^10.2.3",
+        "@types/jest": "^29.5.14",
+        "@types/node": "^22.9.0",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3"
+    },
+    "jest": {
+        "moduleFileExtensions": [
+            "js",
+            "json",
+            "ts"
+        ],
+        "rootDir": ".",
+        "testRegex": ".*\\.spec\\.ts$",
+        "transform": {
+            "^.+\\.(t|j)s$": "ts-jest"
+        },
+        "testEnvironment": "node"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.1604.0",
+        "rate-limiter-flexible": "^5.0.4"
+    }
+}
